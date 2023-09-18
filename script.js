@@ -9,9 +9,22 @@ function calculateFibonacci() {
 }
 
 function fibonacci(n) {
-    if (n <= 1) return n;
-    return fibonacci(n - 1) + fibonacci(n - 2);
-}
+    if (n <= 1) {
+      return n;
+    }
+  
+    let fibPrev = 0;
+    let fibCurrent = 1;
+  
+    for (let i = 2; i <= n; i++) {
+      const temp = fibCurrent;
+      fibCurrent += fibPrev;
+      fibPrev = temp;
+    }
+  
+    return fibCurrent;
+  }
+  
 
 function calculateVolume() {
     const selectedShape = document.getElementById("shape-select").value;
