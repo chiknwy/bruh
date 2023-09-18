@@ -16,7 +16,6 @@ function fibonacci(n) {
 function calculateVolume() {
     const selectedShape = document.getElementById("shape-select").value;
     const kubusSide = parseFloat(document.getElementById("kubus-side").value);
-    const bolaRadius = parseFloat(document.getElementById("bola-radius").value);
     const panjangbal = parseFloat(document.getElementById("panjang-balok").value);
     const lebarbal = parseFloat(document.getElementById("lebar-balok").value);
     const tinggibal = parseFloat(document.getElementById("tinggi-balok").value);
