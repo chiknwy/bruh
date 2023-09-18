@@ -7,15 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Name -->
     <p style="font-family: consolas;">Name: Chiko Gita Satria</p>
     <p style="font-family: consolas;"> Nim: 2215101053</p>
 
-  
-                        
-
-   
-
-
+    <!-- Main -->
     <h1>Kalkulator Matematika Sederhana</h1>
     <div id="fibonacci">
         <h2>Deret Fibonacci</h2>
@@ -34,15 +30,20 @@
             <label for="shape-select">Pilih Bangun Ruang:</label>
             <select id="shape-select">
                 <option value="kubus">Kubus</option>
-                <option value="bola">Bola</option>
+                <option value="balok">Balok</option>
             </select>
             <div id="kubus-form">
                 <label for="kubus-side">Panjang Sisi Kubus:</label>
                 <input type="number" id="kubus-side">
             </div>
-            <div id="bola-form" style="display:none;">
-                <label for="bola-radius">Jari-Jari Bola:</label>
-                <input type="number" id="bola-radius">
+
+            <div id="balok-form" style="display:none;">
+                <label for="balok-panjang">Panjang balok:</label>
+                <input type="number" id="panjang-balok"><br>
+                <label for="balok-lebar">Lebar balok:</label>
+                <input type="number" id="lebar-balok"><br>
+                <label for="balok-tinggi">Tinggi balok:</label>
+                <input type="number" id="tinggi-balok"><br>
             </div>
             <button type="button" onclick="calculateVolume()">Hitung</button>
         </form>
