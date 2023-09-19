@@ -1,9 +1,24 @@
 /* CSS untuk tampilan umum */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    color: #7fffb4;
+    background-color: #0f0909;
     margin: 0;
     padding: 0;
+}
+
+
+
+#name{
+
+    font-family: consolas, Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #7fffb4;
+
 }
 
 h1 {
@@ -12,7 +27,8 @@ h1 {
 
 /* CSS untuk bagian "Deret Fibonacci" */
 #fibonacci {
-    background-color: #fff;
+    background-color: #000000;
+    color: #7fffb4;
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
@@ -21,7 +37,8 @@ h1 {
 
 /* CSS untuk bagian "Perhitungan Volume Bangun Ruang" */
 #volume {
-    background-color: #fff;
+    background-color: #000000;
+    color: #7fffb4;
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
@@ -42,7 +59,7 @@ input[type="number"] {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 3px;
 }
 
@@ -50,12 +67,12 @@ select {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #7fffb4;
     border-radius: 3px;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #e04655;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -64,7 +81,8 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #b8404c;
+    font-style: italic;
 }
 
 /* CSS untuk hasil perhitungan */
@@ -80,8 +98,15 @@ button:hover {
 
 /* CSS untuk link */
 a {
-    color: #007bff;
+    color: #eef4fb;
     text-decoration: none;
+}
+
+form{
+    margin-top: 20px;
+    background-color: #000000;
+    color: #7fffb4;
+    font-size: 14px;
 }
 
 a:hover {
