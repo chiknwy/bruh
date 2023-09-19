@@ -86,7 +86,6 @@ document.getElementById("shape-select").addEventListener("change", function () {
         document.getElementById("bola-form").style.display = "none";
         document.getElementById("tabung-form").style.display = "none";
         document.getElementById("kerucut-form").style.display = "none";
-        document.getElementById("tabung-form").style.display = "none";
         document.getElementById("limas-form").style.display = "none";
     }
     else if (selectedShape === "bola") {
@@ -94,12 +93,13 @@ document.getElementById("shape-select").addEventListener("change", function () {
         document.getElementById("balok-form").style.display = "none";
         document.getElementById("bola-form").style.display = "block";
         document.getElementById("tabung-form").style.display = "none";
+        document.getElementById("kerucut-form").style.display = "none";
+        document.getElementById("limas-form").style.display = "none";
     }
     else if (selectedShape === "tabung") {
         document.getElementById("kubus-form").style.display = "none";
         document.getElementById("balok-form").style.display = "none";
         document.getElementById("bola-form").style.display = "none";
-        document.getElementById("tabung-form").style.display = "none";
         document.getElementById("kerucut-form").style.display = "none";
         document.getElementById("tabung-form").style.display = "block";
         document.getElementById("limas-form").style.display = "none";
@@ -108,7 +108,6 @@ document.getElementById("shape-select").addEventListener("change", function () {
         document.getElementById("kubus-form").style.display = "none";
         document.getElementById("balok-form").style.display = "none";
         document.getElementById("bola-form").style.display = "none";
-        document.getElementById("tabung-form").style.display = "none";
         document.getElementById("kerucut-form").style.display = "block";
         document.getElementById("tabung-form").style.display = "none";
         document.getElementById("limas-form").style.display = "none";
@@ -117,7 +116,6 @@ document.getElementById("shape-select").addEventListener("change", function () {
         document.getElementById("kubus-form").style.display = "none";
         document.getElementById("balok-form").style.display = "none";
         document.getElementById("bola-form").style.display = "none";
-        document.getElementById("tabung-form").style.display = "none";
         document.getElementById("kerucut-form").style.display = "none";
         document.getElementById("tabung-form").style.display = "none";
         document.getElementById("limas-form").style.display = "block";
