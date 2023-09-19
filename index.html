@@ -31,6 +31,8 @@
             <select id="shape-select">
                 <option value="kubus">Kubus</option>
                 <option value="balok">Balok</option>
+                <option value="bola">Bola</option>
+
             </select>
             <div id="kubus-form">
                 <label for="kubus-side">Panjang Sisi Kubus:</label>
@@ -45,6 +47,11 @@
                 <label for="balok-tinggi">Tinggi balok:</label>
                 <input type="number" id="tinggi-balok"><br>
             </div>
+            <div id="bola-form" style="display:none;">
+                <label for="bola-radius">Jari-Jari Bola:</label>
+                <input type="number" id="bola-radius">
+            </div>
+            
             <button type="button" onclick="calculateVolume()">Hitung</button>
         </form>
         <p>Hasil: <span id="volume-result"></span></p>
